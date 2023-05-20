@@ -1,0 +1,37 @@
+a {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+.header {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  grid-gap: 45px;
+  margin-left: 10px;
+}
+.product-img {
+  width: 100%;
+  border-radius: 10px;
+  aspect-ratio: 1.55/1;
+  object-fit: fill;
+}
+.product-name {
+  text-align: center;
+  margin-top: 3px;
+}
+.product {
+  position: relative;
+}
+.link:hover {
+  position: absolute;
+  width: 102%;
+}

@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: system-ui;
+}
+
+.product-name {
+  text-align: center;
+  font-size: large;
+}
+/* секция за галерия */
+.container {
+  margin: 0 auto;
+  width: 102%;
+}
+.main_view {
+  display: grid;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_view img {
+  width: 350px;
+}
+
+.side_view {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.side_view img {
+  width: 8rem;
+  cursor: pointer;
+  margin: 2px;
+}
+.column:hover {
+  box-shadow: 0 0 3px #ff0000;
+  cursor: pointer;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
